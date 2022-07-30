@@ -8,6 +8,7 @@
 
 ```
 asdf plugin-add fission https://github.com/virtualstaticvoid/asdf-fission.git
+asdf install fission latest
 ```
 
 ## Use
