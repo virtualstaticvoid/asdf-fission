@@ -22,6 +22,6 @@ jobs:
       - name: asdf_plugin_test
         uses: asdf-vm/actions/plugin-test@v1.0.1
         with:
-          command: fission version --client-only
+          command: fission version --client-only | grep fission > /dev/null
         env:
           GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
